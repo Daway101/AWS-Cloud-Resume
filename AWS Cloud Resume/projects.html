@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Dawa Tsering</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="menu-overlay" onclick="toggleMenu()"></div>
+
+    <header>
+        <h1>My Projects</h1>
+        <button class="menu-button" onclick="toggleMenu()">☰</button>
+
+        <nav>
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="about.html#about">About Me</a></li>
+                <li><a href="resume.html#resume">Resume</a></li>
+                <li><a href="projects.html#projects">Projects</a></li>
+                <li><a href="contact.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="projects" class="neomorphic">
+       
+        <p>Here are some of the projects I have worked on:</p>
+        <section class="resume">
+            <h2>PROJECTS</h2>
+            <hr>
+            <div class="job">
+                <P class="title"><strong>ElevateED - </strong>Developer & Cloud Infrastructure Architect, Per Scholas</P>
+                <p class="date"><em>Jan 2025</em></p>
+                <ul>
+                    <li>Designed and developed a user-friendly cloud based website for a Virtual Tech Hub, providing underprivileged students with access to tech education resources</li>
+                    <li>Architected and deployed cloud infrastructure on AWS, ensuring scalability, security, and cost-efficiency using EC2, S3, CloudFront, Amazon SES, CloudFormation, CloudWatch and IAM</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <p class="title"><strong>Cloud Resume Challenge</strong></p>
+                <p class="date"><em>Feb 2025</em></p>
+                <ul>
+                    <li>Architected and deployed a dynamic resume hosted on AWS using Amazon S3 with a visitor counter powered by DynamoDB, CloudFront for global content delivery and HTTPS security, and Route 53 for custom domain management, ensuring scalability and high availability, while also publishing technical blog post on my Github</li>
+                    <li>Developed a serverless API using AWS Lambda (Python) to interact with DynamoDB, storing and retrieving visitor counts via API Gateway, showcasing cloud-native application development and database integration</li>
+                    <li>Implemented Infrastructure as Code (IaC) and CI/CD using AWS SAM for automated provisioning, and GitHub Actions for continuous integration and deployment, ensuring efficient version control and seamless updates to both the front-end and back-end</li>
+                </ul>
+            </div>
+        </section>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Dawa Tsering. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

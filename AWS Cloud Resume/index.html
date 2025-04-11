@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Dawa Tsering</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="menu-overlay" onclick="toggleMenu()"></div>
+
+    <header>
+        <h1>Dawa's Personal Website</h1>
+        <button class="menu-button" onclick="toggleMenu()">☰</button>
+        <nav>
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="about.html#about">About Me</a></li>
+                <li><a href="resume.html#resume">Resume</a></li>
+                <li><a href="projects.html#projects">Projects</a></li>
+                <li><a href="contact.html#contact">Contact</a></li>
+                <li id="visitor-nav"><a href="#">Visitors: <span id="visitor-count">Loading...</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="neomorphic">
+        <img src="Personal website profile.jpeg" alt="Profile photo">
+        <p>Welcome to Dawa's personal website where you can learn about me, view my resume, projects, and get in touch with me. Enthusiastic and certified AWS Cloud Practitioner with foundational knowledge of cloud computing, infrastructure management, and security best practices. Proficient in key AWS services such as EC2, S3, and IAM, with hands-on experience designing scalable and secure cloud environments. Feel free to explore!</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Dawa Tsering. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
