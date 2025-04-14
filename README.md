@@ -91,15 +91,15 @@ terraform apply
 
 This will create:
 
--S3 bucket for your website
+- S3 bucket for your website
 
--DynamoDB table for tracking visitors
+- DynamoDB table for tracking visitors
 
--Lambda function
+- Lambda function
 
--IAM roles and policies
+- IAM roles and policies
 
--API Gateway
+- API Gateway
 
 ---
 
@@ -121,11 +121,11 @@ Go to your GitHub repository → **Settings** → **Secrets and Variables** → 
 
 Make sure your yml file exists in .github/workflows/. When you push changes to the main branch, GitHub Actions will:
 
-1. Checkout your repo
+- Checkout your repo
 
-2. Sync files from the frontend/ or SOURCE_DIR directory to your S3 bucket
+- Sync files from the frontend/ or SOURCE_DIR directory to your S3 bucket
 
-3. Invalidate the CloudFront cache (if configured)
+- Invalidate the CloudFront cache (if configured)
 
 ---
 
@@ -133,12 +133,9 @@ Make sure your yml file exists in .github/workflows/. When you push changes to t
 
 The homepage includes a dynamic visitor counter powered by:
 
-1. AWS Lambda (Python)
+- AWS Lambda (Python)
 
-2. Amazon DynamoDB
-
-3. API Gateway (lambda)
-
+- Amazon DynamoDB
 
 ---
 
