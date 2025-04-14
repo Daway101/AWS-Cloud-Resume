@@ -130,6 +130,7 @@ Make sure your yml file exists in .github/workflows/. When you push changes to t
 ---
 
 📊 Unique Visitor Counter
+
 The homepage includes a dynamic visitor counter powered by:
 
 1. AWS Lambda (Python)
