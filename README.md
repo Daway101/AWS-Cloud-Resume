@@ -105,13 +105,15 @@ This will create:
 
 ### 🔐 4. Add GitHub Secrets for CI/CD
 
-Go to your GitHub repository → Settings → Secrets and Variables → Actions, and add the following secrets:
+Go to your GitHub repository → **Settings** → **Secrets and Variables** → **Actions**, and add the following secrets:
 
-Secret Name	                    Description
-AWS_ACCESS_KEY_ID	          Your AWS access key
-AWS_SECRET_ACCESS_KEY	      Your AWS secret key
-AWS_S3_BUCKET	              The name of your S3 bucket
-AWS_REGION	                Your AWS region (e.g., us-east-1)
+| Secret Name           | Description                       |
+|------------------------|-----------------------------------|
+| `AWS_ACCESS_KEY_ID`     | Your AWS access key               |
+| `AWS_SECRET_ACCESS_KEY` | Your AWS secret key               |
+| `AWS_S3_BUCKET`         | The name of your S3 bucket        |
+| `AWS_REGION`            | Your AWS region (e.g., us-east-1) |
+
 
 ---
 
